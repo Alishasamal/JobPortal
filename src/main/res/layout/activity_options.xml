@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Options">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tl_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        app:menu="@menu/menu_main"
+        android:minHeight="?attr/actionBarSize">
+
+    </androidx.appcompat.widget.Toolbar>
+    <RelativeLayout
+        android:id="@+id/r1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tl_user">
+
+        <RelativeLayout
+            android:id="@+id/r3"
+            android:layout_width="match_parent"
+            android:layout_height="257dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="10dp">
+
+            <ImageButton
+                android:id="@+id/i1"
+                android:layout_width="189dp"
+                android:layout_height="223dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/search2" />
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/i1"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="3dp"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:text="Search Profile" />
+
+            <ImageButton
+                android:id="@+id/i2"
+                android:layout_width="191dp"
+                android:layout_height="224dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/response2" />
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/i2"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="3dp"
+                android:layout_marginEnd="40dp"
+                android:text="Responses"
+                android:textSize="15sp"
+                android:textStyle="bold"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/r2"
+            android:layout_marginTop="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/r3">
+
+            <ImageButton
+                android:id="@+id/i3"
+                android:layout_width="191dp"
+                android:layout_height="237dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/posting"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp" />
+
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/i3"
+                android:text="Post A Job"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="30dp"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginTop="2dp" />
+
+            <ImageButton
+                android:id="@+id/i4"
+                android:layout_width="196dp"
+                android:layout_height="235dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/posted1"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true" />
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/i4"
+                android:layout_alignParentEnd="true"
+                android:textStyle="bold"
+                android:layout_marginTop="3dp"
+                android:text="Jobs Posted"
+                android:textSize="15sp"
+                android:layout_marginEnd="40dp" />
+        </RelativeLayout>
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

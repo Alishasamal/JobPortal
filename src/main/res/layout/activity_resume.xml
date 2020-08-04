@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".resume">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/rl1"
+        android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/iv_resume"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/resume2"/>
+
+        <TextView
+            android:id="@+id/tv_resum"
+            android:layout_width="match_parent"
+            android:layout_height="469dp"
+            android:layout_below="@+id/iv_resume"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="5dp"
+            android:gravity="center_horizontal"
+            android:text="@string/buildresume" />
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="242dp"
+            android:layout_height="37dp"
+            android:layout_below="@+id/tv_resum"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="-350dp"
+            android:gravity="center"
+            android:text="Build Free Resume" />
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="180dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/btn1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text="Already Have an Account ? " />
+
+        <Button
+            android:layout_width="161dp"
+            android:layout_height="34dp"
+            android:layout_below="@+id/tv2"
+            android:layout_marginStart="-72dp"
+            android:layout_marginTop="15dp"
+            android:layout_toEndOf="@+id/tv2"
+            android:text="Sign in" />
+    </RelativeLayout>
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_nav"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentBottom="true"
+        android:background="#ffffff"
+        app:menu="@menu/menu_main2" />
+
+
+
+</RelativeLayout>

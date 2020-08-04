@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">JobPortal</string>
+    <string name="buildresume">
+        Build free Resume and start
+        applying for jobs in less than 2 minutes.
+        Build your resume now to see only relevant
+        jobs and notification on click India.
+    </string>
+</resources>
