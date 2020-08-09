@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".findjobs">
+
+    <TextView
+        android:id="@+id/tv_find"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="130dp"
+        android:textSize="35sp"
+        android:layout_marginTop="28dp"
+        android:text="Find Jobs" />
+
+    <TextView
+        android:id="@+id/tv_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search By"
+        android:textSize="25sp"
+        android:layout_below="@+id/tv_find"
+        android:layout_marginTop="30dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/btn_jobtype"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="80dp"
+        android:textSize="25sp"
+        android:layout_marginStart="110dp"
+        android:text="Job Type"
+       android:layout_below="@+id/tv_search"/>
+    <Spinner
+        android:id="@+id/sp_job"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_toEndOf="@+id/btn_jobtype"
+        android:layout_below="@+id/tv_search"
+        android:entries="@array/items_jobs"
+        android:prompt="@string/jobs_prompt"
+        android:layout_marginTop="80dp"/>
+
+    <TextView
+        android:id="@+id/btn_Location"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:text="Location"
+        android:textSize="25sp"
+        android:layout_marginStart="110dp"
+        android:layout_below="@+id/btn_jobtype" />
+    <Spinner
+        android:id="@+id/sp_loc"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_toEndOf="@+id/btn_Location"
+        android:layout_below="@+id/btn_jobtype"
+        android:entries="@array/items_locations"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:id="@+id/btn_salary"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:text="Salary"
+        android:textSize="25sp"
+        android:layout_marginStart="110dp"
+       android:layout_below="@+id/btn_Location" />
+    <Spinner
+        android:id="@+id/sp_sal"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_toEndOf="@+id/btn_salary"
+        android:layout_below="@+id/btn_Location"
+        android:entries="@array/items_salary"
+        android:layout_marginTop="50dp"/>
+
+</RelativeLayout>

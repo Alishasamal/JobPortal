@@ -1,9 +1,42 @@
 <resources>
     <string name="app_name">JobPortal</string>
+    <string name="jobs_prompt">Choose a Job</string>
+
     <string name="buildresume">
         Build free Resume and start
         applying for jobs in less than 2 minutes.
         Build your resume now to see only relevant
         jobs and notification on click India.
     </string>
+    <string-array name="items_jobs">
+        <item>Nanny</item>
+        <item>Driver</item>
+        <item>Electrician</item>
+        <item>Plumber</item>
+        <item>Virtual Assistant</item>
+        <item>Staff</item>
+        <item>Pet Sitter</item>
+        <item>Cook</item>
+        <item>Delivery Boy</item>
+        <item>Home Health Aids</item>
+        <item>Sales men</item>
+        <item>Tutor</item>
+        <item>Gym Trainer</item>
+        <item>Administrative assistant</item>
+        <item>Receptionist</item>
+        <item>House Painter</item>
+        <item>Tour Guide</item>
+        <item>Online Data Entry Check</item>
+        <item>Fitness Instructor</item>
+    </string-array>
+    <string-array name="items_locations">
+        <item>Odisha</item>
+        <item>Bangalore</item>
+        <item>Delhi</item>
+    </string-array>
+    <string-array name="items_salary">
+        <item>Rs 500–1000</item>
+        <item>Rs 200–800</item>
+        <item>Rs 400–2000</item>
+    </string-array>
 </resources>
