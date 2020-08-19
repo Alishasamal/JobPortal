@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/action_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home"
+            app:showAsAction="always"/>
+        <item
+            android:id="@+id/action_search"
+            android:icon="@drawable/ic_baseline_search_24"
+            android:title="Search"
+            app:showAsAction="always" />
+    </group>
+    <item android:title="">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/action_jobs"
+                    android:icon="@drawable/ic_jobs"
+                    android:title="Jobs"
+                    app:showAsAction="always" />
+            </group>
+        </menu>
+    </item>
+    <item android:title="">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/action_messages"
+                    android:icon="@drawable/ic_message"
+                    android:title="Messages"
+                    app:showAsAction="always" />
+                <item
+                    android:id="@+id/action_alert"
+                    android:icon="@drawable/ic_alert_24"
+                    android:title="Alerts"
+                    app:showAsAction="always" />
+            </group>
+        </menu>
+    </item>
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/action_settings"
+                android:icon="@drawable/ic_baseline_settings_24"
+                android:title="Settings"
+                app:showAsAction="always" />
+            <item
+                android:id="@+id/action_contact"
+                android:icon="@drawable/ic_baseline_contact_phone_24"
+                android:title="Contact Us"
+                app:showAsAction="always" />
+            <item
+                android:id="@+id/action_about"
+                android:icon="@drawable/ic_about"
+                android:title="About Us"
+                app:showAsAction="always" />
+        </menu>
+    </item>
+</menu>

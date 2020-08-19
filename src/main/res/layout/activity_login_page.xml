@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/login3"
+    android:background="@drawable/custom_button"
     tools:context=".LoginPage">
     <ScrollView
         android:layout_width="match_parent"
@@ -23,18 +23,20 @@
                 android:layout_height="200dp"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="0dp"
-                app:srcCompat="@drawable/ic_launcher_background" />
+                app:srcCompat="@drawable/login1" />
 
             <TextView
                 android:id="@+id/welcome"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/logo"
+                android:textColor="#ffffff"
                 android:layout_centerHorizontal="true"
                 android:text="HELLO THERE,
 WELCOME BACK"
                 android:textStyle="bold"
-                android:textSize="50sp" />
+                android:gravity="center"
+                android:textSize="40sp" />
 
             <TextView
                 android:id="@+id/login_id"
@@ -86,9 +88,10 @@ WELCOME BACK"
 
             <Button
                 android:id="@+id/login_btn"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
                 android:layout_marginTop="0dp"
+                android:elevation="10dp"
                 android:layout_gravity="center"
                 android:layout_centerHorizontal="true"
                 android:background="@color/grey"
