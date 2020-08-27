@@ -3,10 +3,19 @@
     <string name="jobs_prompt">Choose a Job</string>
 
     <string name="buildresume">
-        Build free Resume and start
-        applying for jobs in less than 2 minutes.
-        Build your resume now to see only relevant
+        Build free Resume and start\n
+        applying for jobs in less than 2 minutes.\n
+        Build your resume now to see only relevant\n
         jobs and notification on click India.
+    </string>
+    <string name="text_with_para">
+        Our job portal creates an opportunity for both job seekers\n
+           and job providers to embrace an easy employment process.\n
+          It is specially designed for students those who are ina search\n
+           of part-time job.Users can register for free on this job portal\n
+           and they can receive different job posting and updates that is related to their career and their day-to-day works.
+
+
     </string>
     <string-array name="items_jobs">
         <item>Nanny</item>

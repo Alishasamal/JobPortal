@@ -114,9 +114,10 @@ WELCOME BACK"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:background="@color/grey"
-                android:text="REGISTER"
+                android:text="SIGN UP"
                 android:textSize="20sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:onClick="onSignUpClicked"/>
         </LinearLayout>
     </ScrollView>
 

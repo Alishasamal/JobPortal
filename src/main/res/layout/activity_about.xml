@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".about">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tl_aboutus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button"
+        android:minHeight="?attr/actionBarSize"/>
+    <ImageView
+        android:id="@+id/iv_aboutus"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:layout_below="@+id/tl_aboutus"
+        android:src="@drawable/posted"/>
+    <TextView
+        android:id="@+id/tv_welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_aboutus"
+        android:text="WELCOME TO MOBILE APP"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/tv_us"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ABOUT US"
+        android:layout_marginStart="5dp"
+        android:layout_below="@+id/tv_welcome"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/green"
+        android:layout_marginTop="10dp"
+        />
+    <View
+        android:id="@+id/view_1"
+        android:layout_width="150dp"
+        android:layout_height="4dp"
+        android:layout_below="@+id/tv_us"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/card1"/>
+    <TextView
+        android:id="@+id/tv_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view_1"
+        android:textStyle="bold"
+        android:layout_marginStart="5dp"
+        android:textSize="14sp"
+        android:layout_marginTop="15dp"
+        android:text="@string/text_with_para"/>
+    <Button
+        android:id="@+id/btn_more"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_desc"
+        android:layout_marginStart="130dp"
+        android:text="Read More"
+        android:textSize="14sp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/card1"
+        android:textColor="#ffffff"/>
+    <View
+        android:id="@+id/view_2"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_below="@+id/btn_more"
+        android:background="@drawable/card1"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:id="@+id/tv_more"
+        android:layout_marginTop="20dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_below="@+id/view_2"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:text="App That Make Bridge The Gap Betwern Job
+                     Providers And Job Seekers"/>
+
+
+
+</RelativeLayout>

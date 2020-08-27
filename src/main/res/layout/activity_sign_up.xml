@@ -28,6 +28,7 @@
                 android:orientation="horizontal">
 
                 <EditText
+                    android:id="@+id/et_firstName"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
@@ -36,6 +37,7 @@
                     android:textSize="30sp" />
 
                 <EditText
+                    android:id="@+id/et_lastName"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
@@ -45,6 +47,7 @@
             </LinearLayout>
 
             <EditText
+                android:id="@+id/et_signUpEmail"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
@@ -52,6 +55,7 @@
                 android:textSize="30sp" />
 
             <EditText
+                android:id="@+id/et_phoneNo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
@@ -59,6 +63,7 @@
                 android:textSize="30sp" />
 
             <EditText
+                android:id="@+id/et_signUpPassword"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
@@ -67,6 +72,7 @@
                 android:textSize="30sp" />
 
             <EditText
+                android:id="@+id/et_cnfrmPassword"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
